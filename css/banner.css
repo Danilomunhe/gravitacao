@@ -117,3 +117,9 @@
     transition: all 1s;
     transform: scale(110%);
 }
+
+@media (max-width:720px){
+    .menu-burger-container{
+        display: none;
+    }
+}

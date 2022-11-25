@@ -41,3 +41,17 @@
 #preto{
     filter: grayscale(100%);
 }
+
+.header-maisVendidos h2{
+    font-size: 1em;
+}
+
+@media (max-width:720px){
+    .img-maisVendido:hover{
+        width: 100%;
+        background-color: #0008;
+        background-blend-mode: darken;
+        cursor: pointer;
+        opacity: 1;
+    }
+}
