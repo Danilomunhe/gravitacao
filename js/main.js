@@ -172,7 +172,7 @@ const db = [
     },
     {
         id: 27,
-        data: '1970', 
+        data: '1978', 
         descricao: 'Wu foi a primeira cientista a confirmar – e depois aprimorar – a teoria de Decaimento Beta de Enrico Fermi. Ela ficou famosa pelo “Experimento de Wu”', 
         imagem: './img/banner.jpg'
     },
@@ -218,5 +218,5 @@ carregarJogos(db);
 function abrir() {
     document.querySelector(".menu-burger-container").classList.toggle("active");
   }
-  
+
 document.querySelector(".menu-burger-container").addEventListener("click", abrir);
